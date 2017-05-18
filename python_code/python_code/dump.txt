@@ -1,0 +1,9 @@
+(S'this is a string'
+p1
+I42
+(lp2
+I1
+aI2
+aI3
+aNtp3
+.

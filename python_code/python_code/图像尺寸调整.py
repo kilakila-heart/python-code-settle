@@ -1,0 +1,18 @@
+import cv2
+filename="1.png"
+image=cv2.imread(filename)
+res1=cv2.resize(image,(90,90),interpolation=cv2.INTER_CUBIC)
+res2=cv2.resize(image,(136,136),interpolation=cv2.INTER_CUBIC)
+res3=cv2.resize(image,(168,168),interpolation=cv2.INTER_CUBIC)
+res4=cv2.resize(image,(192,192),interpolation=cv2.INTER_CUBIC)
+res5=cv2.resize(image,(224,224),interpolation=cv2.INTER_CUBIC)
+res6=cv2.resize(image,(512,512),interpolation=cv2.INTER_CUBIC)
+cv2.imshow('image',image)
+cv2.imwrite("11.png",res1)
+cv2.imwrite("12.png",res2)
+cv2.imwrite("13.png",res3)
+cv2.imwrite("14.png",res4)
+cv2.imwrite("15.png",res5)
+cv2.imwrite("16.png",res6)
+cv2.waitKey(0)
+cv2.destoryAllWindows()

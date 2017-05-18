@@ -1,0 +1,6 @@
+cat	1
+fish	2
+tig	3
+monkey	4
+shark	5
+bar	6
